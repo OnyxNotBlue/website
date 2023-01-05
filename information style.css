@@ -1,0 +1,137 @@
+:root{
+    --white:#fff;
+    --p:#31158C;
+    --black:#181818;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#121212;
+    margin:0;
+}
+header{
+    padding:0 15px 15px 15px;
+}
+.fixedHeader{
+    background:#181818;
+    position: fixed;
+    width: 98%;
+    margin: 0;
+    animation: mymove 0.5s;
+    z-index: 100;
+}
+@keyframes mymove {
+    from {transform:translateY(-100px)}
+    to {transform:translateY(0)}
+}
+
+header .nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+header nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+header nav ul li {
+    font-size:16px;
+    color:#ffffff;
+    padding:15px 35px 15px 35px;
+    }
+.home{
+    color:#ffffff;
+    text-decoration:none;
+    }
+.home:hover{
+    color:var(--p);
+}
+
+.SU{
+    border:2px solid var(--p);
+    border-radius:6px;
+    color:var(--p);
+    padding:10px 20px 10px 20px;
+    text-decoration:none;
+}
+.SU:hover{
+    color:var(--white);
+    background-color:var(--p)    
+}
+.img{
+    border-radius:9px;
+    width:400px;
+    margin:0;
+
+}
+.down{
+    font-size:30px;
+    color:var(--white);
+}
+.about{
+    font-size:50px;
+    color:var(--white);
+    font-weight:bold;
+    margin:50px 0 30px 0;
+}
+.info{
+    font-size:30px;
+    color:#b3b3b3;
+    width:500px;
+    margin:20px 0 50px 0;
+}
+.fdiv{
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+.sdiv{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.tdiv{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:80px 0 0 0;
+}
+.download{
+    border:2px solid var(--p);
+    border-radius:6px;
+    color:var(--p);
+    padding:15px 30px 15px 30px;
+    font-size:25px;
+    margin:20px 0 0 0;
+    cursor: pointer;
+}
+.download:hover{
+    color:var(--white);
+    background-color:var(--p)    
+}
+.footer{
+    margin:0;
+    padding:40px 0 0 0;
+    color:#b3b3b3;
+    font-weight:50;
+    background-color:var(--black);
+}
+.fot1{
+    margin:0 0 5 45px;
+    color:var(--white);
+    font-weight:bold;
+}
+.fot2{
+    margin:0 0 5 45px;
+    font-weight:lighter;
+}
+.logo{
+    width:75px;
+    height:20px;
+    margin:5px;
+}
